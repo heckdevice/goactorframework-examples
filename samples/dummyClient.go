@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/heckdevice/goactorframework"
+	"github.com/heckdevice/goactorframework-corelib"
 	"github.com/heckdevice/goactorframework-examples/samples/common"
 	"github.com/heckdevice/goactorframework-examples/samples/echomessage"
 	"github.com/heckdevice/goactorframework-examples/samples/printmessage"
@@ -14,6 +14,7 @@ var (
 	messageQueue = make(chan core.Message, 10)
 )
 
+// InitSampleMessageQueue - initializes the sample/example actor and returns the message queue
 func InitSampleMessageQueue() chan core.Message {
 	printmessage.InitActor()
 	echomessage.InitActor()

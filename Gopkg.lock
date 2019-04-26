@@ -9,13 +9,13 @@
 
 [[projects]]
   branch = "master"
-  name = "github.com/heckdevice/goactorframework"
+  name = "github.com/heckdevice/goactorframework-corelib"
   packages = ["."]
-  revision = "34dbd69d47bebb1f15a8ee1c446d53a880422373"
+  revision = "b45a9c223fee1aa46fc4e677478bf52a4ed69966"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "2e29848b6f600d22cb43e3928eb8ab5db431cf9b24a6e9bf042651adfbee901b"
+  inputs-digest = "2319123e8cd0792aca25e90fec98a10cefca79da0e71dc907cfa8a763739b5f3"
   solver-name = "gps-cdcl"
   solver-version = 1

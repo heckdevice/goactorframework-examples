@@ -4,14 +4,16 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/heckdevice/goactorframework"
+	"github.com/heckdevice/goactorframework-corelib"
 	"github.com/heckdevice/goactorframework-examples/samples/common"
 )
 
 const (
+	// ActorType - actor type for this actor
 	ActorType = "PrintActor"
 )
 
+// InitActor - Initialises this actor by registering its different message handlers and spawing the actor using the Default actor system
 func InitActor() {
 	printActor := core.Actor{ActorType: ActorType}
 	err := core.GetDefaultActorSystem().RegisterActor(&printActor, common.ConsolePrint, consolePrint)
