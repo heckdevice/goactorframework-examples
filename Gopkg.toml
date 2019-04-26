@@ -27,7 +27,7 @@
 
 [[constraint]]
   branch = "master"
-  name = "github.com/heckdevice/goactorframework"
+  name = "github.com/heckdevice/goactorframework-corelib"
 
 [prune]
   go-tests = true

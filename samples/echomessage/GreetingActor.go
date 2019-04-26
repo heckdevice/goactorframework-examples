@@ -4,16 +4,20 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/heckdevice/goactorframework"
+	"github.com/heckdevice/goactorframework-corelib"
 	"github.com/heckdevice/goactorframework-examples/samples/common"
 )
 
 const (
-	ActorType      = "GreetingActor"
-	MessageTypeHI  = "HI"
+	// ActorType - actor type for this actor
+	ActorType = "GreetingActor"
+	// MessageTypeHI - supported messageType for this actor
+	MessageTypeHI = "HI"
+	// MessageTypeBYE - supported messageType for this actor
 	MessageTypeBYE = "BYE"
 )
 
+// InitActor - Initialises this actor by registering its different message handlers and spawing the actor using the Default actor system
 func InitActor() {
 	greetingActor := core.Actor{ActorType: ActorType}
 	err := core.GetDefaultActorSystem().RegisterActor(&greetingActor, MessageTypeHI, greetHI)

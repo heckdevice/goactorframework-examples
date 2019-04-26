@@ -6,7 +6,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/heckdevice/goactorframework"
+	"github.com/heckdevice/goactorframework-corelib"
 	"github.com/heckdevice/goactorframework-examples/samples"
 )
 
