@@ -4,10 +4,10 @@ import (
 	"math/rand"
 	"time"
 
+	"github.com/heckdevice/goactorframework"
 	"github.com/heckdevice/goactorframework-examples/samples/common"
 	"github.com/heckdevice/goactorframework-examples/samples/echomessage"
 	"github.com/heckdevice/goactorframework-examples/samples/printmessage"
-	"github.com/heckdevice/goactorframework/core"
 )
 
 var (

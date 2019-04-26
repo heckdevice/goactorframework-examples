@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/heckdevice/goactorframework"
 	"github.com/heckdevice/goactorframework-examples/samples/common"
-	"github.com/heckdevice/goactorframework/core"
 )
 
 const (

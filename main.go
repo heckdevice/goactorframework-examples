@@ -6,8 +6,8 @@ import (
 	"os/signal"
 	"syscall"
 
+	"github.com/heckdevice/goactorframework"
 	"github.com/heckdevice/goactorframework-examples/samples"
-	"github.com/heckdevice/goactorframework/core"
 )
 
 var (

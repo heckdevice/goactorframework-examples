@@ -2,20 +2,16 @@
 
 
 [[projects]]
+  digest = "1:582b704bebaa06b48c29b0cec224a6058a09c86883aaddabde889cd1a5f73e1b"
   name = "github.com/google/uuid"
   packages = ["."]
+  pruneopts = "UT"
   revision = "0cd6bf5da1e1c83f8b45653022c74f71af0538a4"
   version = "v1.1.1"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/heckdevice/goactorframework"
-  packages = ["."]
-  revision = "34dbd69d47bebb1f15a8ee1c446d53a880422373"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "2e29848b6f600d22cb43e3928eb8ab5db431cf9b24a6e9bf042651adfbee901b"
+  input-imports = ["github.com/google/uuid"]
   solver-name = "gps-cdcl"
   solver-version = 1
